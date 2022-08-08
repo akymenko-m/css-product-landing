@@ -1,23 +1,87 @@
-li {
-    list-style: none;
-  }
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-#hero {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
-.grid {
-    display: flex;
-  }
-  
-#submit {
-    background-color: orange;
+header {
+  display: flex;
+
+}
+.logo {
+  width: 100%;
+  display: flex;
+}
+nav {
+  width: 100%;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+}
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
-.fa fa-3x fa-fire {
-    color: orange;
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+.grid {
+  display: flex;
+  margin: 50px;
+  padding: 5px;
+}
+
+input[type='email'] {
+  padding: 10px;
+}
+  
+.btn {
+  background-color: orange;
+  border: 0;
+  font-weight: 900;
+  padding: 5px;
+  margin: 15px;
+}
+#features {
+  margin-top: 100px;
+}
+.icon {
+  display: flex;
+  color: darkorange;
+  padding-right: 50px;
+}
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  width: 600px;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
 }
